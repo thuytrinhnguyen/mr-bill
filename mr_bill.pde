@@ -81,7 +81,7 @@ void drawGamePlaying() {
 
   textSize(20);
   fill(255, textBoss);
-  text("Get 60 points to meet the BOSS!", width/4, 40);
+  text("Get 30 points to meet the BOSS!", width/4, 40);
 }
 
 void drawGameLost() {

@@ -32,7 +32,7 @@ void moveBalls() {
   throwBalls(noOfBallsToAdd);
   point = point + 6 * noOfBallsToAdd;
 
-  if (point >= 60 && jellyfish == null) {
+  if (point >= 30 && jellyfish == null) {
     jellyfish = new Jellyfish(random(100, width-50), 65);
     textBoss = 0;
 
